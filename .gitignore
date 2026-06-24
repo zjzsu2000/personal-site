@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.docusaurus/
+build/
+
+# Local env
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

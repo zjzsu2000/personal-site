@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Jie Zou personal site">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="88" y="92" width="1024" height="446" rx="24" fill="#ffffff" stroke="#dbe3ef"/>
+  <text x="140" y="245" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#111827">I make AI go from fast to reliable.</text>
+  <text x="140" y="325" font-family="Arial, sans-serif" font-size="32" fill="#475569">Backend &amp; platform engineer building AI-native workflows.</text>
+  <text x="140" y="382" font-family="Arial, sans-serif" font-size="28" fill="#2563eb">checkpoints · boundaries · cross-model review</text>
+</svg>
