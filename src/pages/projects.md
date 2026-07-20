@@ -7,29 +7,28 @@ description: Projects by Jie Zou, including Handoff Reader.
 
 ## Handoff Reader
 
-**Active · Building in public**
+**Featured · Submitted to OpenAI Build Week · Building in public**
 
-A local-first CLI for turning a project into a fixed-schema handoff package that another AI session can pick up without re-explaining the work.
+Reliable, evidence-grounded handoffs between AI coding sessions.
 
-### Problem
+Handoff Reader turns live repository state into portable, validated handoffs for the next AI coding session. It collects Git evidence, project checkpoints, and repository metadata, then validates freshness and consistency before the handoff is used.
 
-AI-assisted projects often lose continuity when work moves between sessions, tools, or models. The next session needs the current goal, state, completed work, next steps, boundaries, and open questions, but that context is usually scattered across chat history, git state, notes, and memory.
+### Highlights
 
-### Approach
+- Provider-neutral AI workflow
+- Evidence-grounded repository snapshots
+- Freshness and consistency validation
+- Fail-closed evidence collection
+- 69 automated tests
+- Built and submitted during OpenAI Build Week
 
-Handoff Reader points at one local repository and produces two things:
+### Tech
 
-- a fixed seven-section `HANDOFF.md`
-- a paste-ready bootstrap block for a new AI session
-
-The first version stays deliberately small: CLI-first, local-first, single-repo, no cloud sync, no accounts, no vector database, and no online playground.
-
-### Status
-
-MVP in progress. The project is being built in public with explicit boundaries, checkpoints, and cross-model review.
+Python, CLI, Git, JSON, Markdown, Codex, GPT-5.6
 
 ### Links
 
-- GitHub repo: coming soon
 - [Build notes: Writing / building tag](/writing/tags/building)
-- Demo: planned
+- [Devpost](https://devpost.com/software/handoff-reader)
+- [GitHub](https://github.com/zjzsu2000/handoff-reader)
+- [Demo](https://youtu.be/LfG8cb-LElw)

@@ -77,18 +77,45 @@ export default function Home(): JSX.Element {
           <div>
             <p className={styles.eyebrow}>Featured Project</p>
             <h2>Handoff Reader</h2>
+            <p>Reliable, evidence-grounded handoffs between AI coding sessions.</p>
             <p>
-              A local-first CLI that turns a project into a fixed-schema HANDOFF.md and
-              a paste-ready bootstrap block, so another AI session can continue without
-              re-explaining the work.
+              Recently built and submitted Handoff Reader to OpenAI Build Week—a
+              provider-neutral tool for reliable context transfer between AI coding sessions.
             </p>
-            <p className={styles.status}>Active · Building in public</p>
+            <p>
+              Handoff Reader turns live repository state into portable, validated handoffs
+              for the next AI coding session.
+            </p>
+            <p className={styles.status}>Submitted to OpenAI Build Week · Building in public</p>
           </div>
           <div className={styles.actionsInline}>
             <Link className="button button--primary" to="/projects">
               View Project
             </Link>
-            <span className={styles.metaPill}>GitHub repo coming soon</span>
+            <a
+              className="button button--secondary"
+              href="https://devpost.com/software/handoff-reader"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Devpost
+            </a>
+            <a
+              className="button button--secondary"
+              href="https://github.com/zjzsu2000/handoff-reader"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              className="button button--secondary"
+              href="https://youtu.be/LfG8cb-LElw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo
+            </a>
           </div>
         </section>
 
