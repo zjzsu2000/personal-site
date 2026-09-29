@@ -79,14 +79,15 @@ export default function Home(): JSX.Element {
             <h2>Handoff Reader</h2>
             <p>Reliable, evidence-grounded handoffs between AI coding sessions.</p>
             <p>
-              Recently built and submitted Handoff Reader to OpenAI Build Week—a
-              provider-neutral tool for reliable context transfer between AI coding sessions.
+              Handoff Reader was built and submitted to OpenAI Build Week—a
+              provider-neutral tool for reliable context transfer between AI
+              coding sessions.
             </p>
             <p>
               Handoff Reader turns live repository state into portable, validated handoffs
               for the next AI coding session.
             </p>
-            <p className={styles.status}>Submitted to OpenAI Build Week · Building in public</p>
+            <p className={styles.status}>OpenAI Build Week submission · Building in public</p>
           </div>
           <div className={styles.actionsInline}>
             <Link className="button button--primary" to="/projects">

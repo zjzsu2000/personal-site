@@ -4,7 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 const links = {
   github: 'https://github.com/zjzsu2000',
   linkedin: 'https://www.linkedin.com/in/zjzsu2000/',
-  // TODO: Add exact X profile URL before rendering it publicly.
 };
 
 const config: Config = {

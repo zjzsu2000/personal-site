@@ -1,6 +1,6 @@
 ---
 title: About
-description: About Jie Zou.
+description: About Jie Zou — backend and platform engineer building AI-native workflows.
 ---
 
 # About
@@ -11,9 +11,26 @@ My path has not been a straight line. I started with early web building, spent y
 
 My work is about making strong AI models useful in real engineering settings, where reliability matters more than speed alone. I care about context handoff, controlled loops, explicit boundaries, and review systems that make AI work easier to trust.
 
+## What I Build
+
 I'm currently building **Handoff Reader**, a local-first CLI that turns repository evidence into a portable, validated handoff artifact for AI-native development workflows.
 
-I write about AI-native engineering workflows, engineering judgment, risk, and systems thinking.
+## Tech Stack
+
+- **Languages:** Java, Python, SQL
+- **Backend & Data:** Spring/Spring Boot, Kafka, Cassandra, Solr/OpenSearch, REST APIs, microservices, event-driven architecture
+- **Cloud & Platform:** Kubernetes, Azure, Docker, CI/CD, workload identity
+- **AI Systems:** LLM coding agents, context engineering, cross-model review, prompt workflows, repository-grounded validation
+- **Reliability:** Production operations, incident investigation, runtime validation, observability
+
+## Education
+
+- **M.S., Software Engineering** — San Jose State University (GPA 3.74)
+- **B.S., Computer Science & Biology** — Sun Yat-sen University
+
+## What I Write About
+
+AI-native engineering workflows, engineering judgment, risk, and systems thinking.
 
 ## Contact
 
